@@ -1,6 +1,12 @@
+/* importamos los componentes */
+@import url(components/avatar.css);
+@import url(components/cards.css);
+@import url(components/button.css);
+
 body {
   background-image: url(images/wallpaper.jpg);
-  background-size: 150% 150%;
+  background-size: cover;
+  background-position: bottom;
   color: #000000;
   font-family: Lora, serif;
   font-size: 17px;
@@ -51,35 +57,6 @@ a:hover {
   .container {
     width: 450px;
   }
-}
-
-.card-white {
-  background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(20px);
-  padding: 40px;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 10px;
-  margin: 20px 0px;
-  text-align: center;
-}
-
-#img-circle {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-}
-
-.btn-blue {
-  background-color: #6b72e1;
-  color: white;
-  padding: 15px 20px;
-  border-radius: 10px;
-}
-.btn-blue:hover {
-  background-color: black;
-  color: white;
 }
 
 .list-inline {
