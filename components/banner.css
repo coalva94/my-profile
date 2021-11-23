@@ -1,0 +1,12 @@
+#banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url(https://images.unsplash.com/photo-1514996937319-344454492b37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  padding: 2px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position-y: center;
+}
+#banner h1 {
+  color: white;
+  font-size: 32px;
+}
